@@ -19,7 +19,7 @@ public class TestController {
         return "Hola mundo!";
     }
 
-    @GetMapping("/tests/bootstrap")
+    @GetMapping("/")
     public String bootstrap() {
         return """
                 <!doctype html>
